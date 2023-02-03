@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+/* ============= MY CSS================== */
+.header nav {
+  padding-bottom: 0px;
+  font-family: Optima;
+  font-size: 25px;
+  color:aliceblue;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+.header nav ul{
+
+  display: flex;
+  justify-content: space-around;
+  
+}
+.header nav ul li {
+      display: inline-block;
+      text-align: center;
+  
+      
+}
+.nav-item{
+  color:rgb(214, 235, 196);
+  text-decoration: none;
+
+}
+.header nav ul li :hover{
+  color:#c8a56d
+  
+}

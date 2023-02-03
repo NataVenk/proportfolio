@@ -1,19 +1,69 @@
-import React from 'react'
+import React from "react";
 
-const Nav = ({setCurrentPage}) => {
-
-    const arr2 = [ {id: 1, name:"Bob"},{id: 5, name:"Bob"}, {id: 110, name:"Bob"}]
-    const arr = ["About", "Contact", "Projects", "Resume"]
+function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul>
-        {/* {arr2.map(topic => (
-         <li key={topic.id}>{topic.name}</li>
-        ))} */}
-        {arr.map(topic => (
-            <li onClick={()=> setCurrentPage(topic)} key={topic}>{topic}</li>
-        ))}
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a  href="#Home"  
+        onClick={() => handlePageChange('Home')}
+        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+        >
+          Home
+        </a>
+        
+      </li>
+      <li className="nav-item">
+        <a  href="#About" 
+        onClick={() => handlePageChange('About')}
+        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
+          About
+        </a>
+      </li>
+      <li className="nav-item">
+        <a  href="#Portfolio" 
+        onClick={() => handlePageChange('Portfolio')}
+        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+        </a>
+      </li>
+      <li className="nav-item"> 
+        <a href="#Inspirations" 
+        onClick={() => handlePageChange('Inspirations')} 
+        className={currentPage === 'Inspirations' ? 'nav-link active' : 'nav-link'}
+        >
+          Inspirations
+        </a>
+      </li>
+      <li className="nav-item">
+        <a  href="#Contact"
+         onClick = {() => handlePageChange('Contact')}
+        className={currentPage === 'Contact' ? 'nav-link active': 'nav-link'}
+        >
+          Contact
+        </a>
+      </li>
     </ul>
-  )
+
+
+
+  );
 }
 
-export default Nav
+
+
+export default Nav;
+
+// const Nav = ({setCurrentPage}) => {
+
+//     const arr = ["About", "Contact", "Projects"]
+//   return (
+//     <ul>
+
+//         {arr.map(topic => (
+//             <li onClick={()=> setCurrentPage(topic)} key={topic}>{topic}</li>
+//         ))}
+//     </ul>
+//   )
+// }
