@@ -6,4 +6,5 @@ import Inspirations from './pages/Inspirations'
 import Home from './pages/Home'
 export {Nav}
 
+
 export {Home, Portfolio, About, Inspirations, Contact}
