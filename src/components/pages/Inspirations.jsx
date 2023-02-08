@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const Inspirations= () => {
+import Footer from '../Footer';
+
+const Inspirations = () => {
   return (
-    <div>Inspirations</div>
-  )
-}
+    <div>
+   
+      <p>Inspirations</p>
+
+      <Footer />
+    </div>
+  );
+};
 
 export default Inspirations;

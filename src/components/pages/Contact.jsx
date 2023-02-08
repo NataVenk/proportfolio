@@ -1,10 +1,13 @@
 import React from "react";
 
+import Footer from '../Footer';
+
 
 
 const Contact = () => {
   return (
     <div>
+     
       <div className="top-section">
         <h3>Let's Connect</h3>
       </div>
@@ -34,11 +37,8 @@ const Contact = () => {
           </li>
         </ul>
       </div>
-
-      <footer>
-        <h4>You are only as big as dreams you dare to live.</h4>
-        <h4> @2023 Natalia Venkatesh</h4>
-      </footer>
+      <Footer />
+     
     </div>
   );
 };

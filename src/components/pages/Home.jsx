@@ -1,16 +1,17 @@
 import React from 'react'
 
+import Footer from '../Footer';
+
 const Home = () => {
   return (
-    <div>Home
+    <div>
+    
+      <p> Home </p>
         
 
 
 
-      <footer>
-        <h4>You are only as big as dreams you dare to live.</h4>
-        <h4> @2023 Natalia Venkatesh</h4>
-       </footer>
+        <Footer />
     </div>
   )
 }
