@@ -1,14 +1,31 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
     <div>
-        <footer>
+      <div className="border d-flex justify-content-around">
+        <li>
+          <a className="contact" href="https://github.com/NataVenk">
+            {" "}
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a
+            className="contact"
+            href="https://www.linkedin.com/in/natalia-venkatesh/"
+          >
+            {" "}
+            LinkedIn
+          </a>
+        </li>
+      </div>
+      <footer>
         <h4>You are only as big as dreams you dare to live.</h4>
         <h4> @2023 Natalia Venkatesh</h4>
-       </footer>
+      </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

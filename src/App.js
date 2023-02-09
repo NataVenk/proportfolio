@@ -3,15 +3,15 @@ import Home from './components/pages/Home';
 import Portfolio from './components/pages/Portfolio';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
-import Inspirations from './components/pages/Inspirations';
+import Resume from './components/pages/Resume';
 import { HashRouter as Router, Route, Routes, Link }from 'react-router-dom';
 
 function App() {
     return (
-        <div className = "Main">
+        <div className = "mainNav">
             <Router>
                 <div>
-                    <ul>
+                    <ul className = "border d-flex justify-content-around">
                         <li>
                         <Link to="/">Home</Link>
                         </li>
@@ -22,7 +22,7 @@ function App() {
                         <Link to="/portfolio">Portfolio</Link>
                         </li>
                         <li>
-                        <Link to="/inspirations">Inspirations</Link>
+                        <Link to="/resume">Resume</Link>
                         </li>
                         <li>
                         <Link to="/contact">Contact</Link>
@@ -44,8 +44,8 @@ function App() {
                     element = {<Portfolio/>}
                     />
                      <Route
-                    path="/inspirations"
-                    element = {<Inspirations/>}
+                    path="/resume"
+                    element = {<Resume/>}
                     />
                      <Route
                     path="/contact"
@@ -68,18 +68,3 @@ function App() {
 
 export default App;
 
-
-//     < >
-//       <Nav setCurrentPage = {setCurrentPage}/>
-//       {currentPage === "About" && <About />}
-//       {currentPage === "Projects" && <Portfolio />}
-//       {currentPage === "Contact" && <Contact />}
-//       <Image someimage="http://placekitten.com/200/300" />
-      
-
-     
-
-//       <Contact />
-//     </>
-//   );
-// }

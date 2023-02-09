@@ -37,6 +37,38 @@
   }
 }
 /* ============= MY CSS================== */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+.header {
+  padding-top: 200px;
+  /* background-image: url("../images/moon.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+/* need to figure out how to adjust background image */
+h2{
+  font-family: optima;
+  font-size: 65pt;
+  text-align: center;
+  color:#c8a56d;
+
+}
+h1{
+  font-family: optima, bold;
+  font-size: 85pt;
+  text-align: center;
+  color: #c8a56d;
+}
+
 .header nav {
   padding-bottom: 0px;
   font-family: Optima;
@@ -67,3 +99,187 @@
   color:#c8a56d
   
 }
+h3{
+  font-family: optima, bold;
+  font-size: 30pt;
+    
+}
+
+.dot{
+  height: 125px;
+  width: 125px;
+  background-image: url("./images/natetsy.png");
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  
+
+}
+
+.top-section{
+  border-bottom: 3px solid #695a86;
+  margin: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
+  text-align: center;
+  height: 30%;
+  color: #695a86;
+
+}
+.bottom-section{
+  
+  height: 70%; 
+  margin-top: 5px; 
+  text-align: center;
+  margin-block: 25px;
+  color: #695a86;
+  text-align: center;
+  font-family: Optima;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.bottom-section  ul {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+
+
+}  
+
+
+.bottom-section p{
+  text-align: justify;
+  margin-block: 20px;
+  text-decoration: none;
+
+}
+.bottom-section-portfolio{
+  height: 70%; 
+  margin-top: 5px; 
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+
+/* .recent-project{
+  position: relative;
+  display: flex;
+
+
+  
+  
+}
+.recent{
+  position: absolute;
+  bottom: 50px;
+  left: -10px;
+  width: 70%;
+  padding: 20px;
+  height: 75px;
+  background-color:  #a795bfc4;
+  border: 5px solid #f7f4f2;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-family: optima;
+  font-size: 25px;
+  text-decoration: none;
+  color:#695a86;
+  border: 5px solid #7a7bca;
+ 
+
+} */
+
+.recent:hover{
+  background-color: darkgray;
+  color:#f7f4f2;
+}
+.image-recent{
+  height: 400px;
+  width: 100%;
+  padding: 10px;
+}
+.image{
+  height: 200px;
+  width: 400px;
+  padding: 10px;
+}
+
+
+
+.portfolio-shape:hover{
+
+  background-color: darkgray;
+  color:#f7f4f2;
+ 
+}
+
+
+
+.inspiration-box{
+  height: 175px;
+  background-color: #a795bfc4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#695a86;
+  font-family: Optima;
+  font-size: 25px;
+  text-decoration: none; 
+  border: 5px solid #f7f4f2;
+
+}
+
+.inspiration-box:hover{
+  background-color: darkgray;
+  color:#f7f4f2;
+  
+}
+
+.contact{
+  text-decoration: none;
+  color:#695a86;
+
+}
+.bottom-section ul li:hover{
+  color: rgb(229, 41, 41);
+  
+}
+
+
+footer{
+  font-family: optima;
+  font-size: 10pt;
+  text-align: center;
+}
+/* 
+@media screen and (max-width: 768px) {
+  header,
+  nav ul{
+    flex-direction: column;
+  }
+@media screen and (max-width: 600px) {
+      header,
+      h1 {
+        font-size: 50px;
+      }
+@media screen and (max-width: 600px) {
+          header,
+          h2 {
+            font-size: 30px;
+          }
+section article {
+    flex-direction: column;
+  } */

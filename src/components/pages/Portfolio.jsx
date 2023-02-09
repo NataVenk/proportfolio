@@ -34,6 +34,30 @@ const Portfolio = () => {
            </a>
         </div>
       </div>
+      <div className="recent-project">
+        <div className="recent">
+          <a href="https://github.com/NataVenk/Daily-calendar">
+          {" "}
+          Daily Calendar{" "}
+           </a>
+        </div>
+      </div>
+      <div className="recent-project">
+        <div className="recent">
+          <a href="https://github.com/NataVenk/password-generator">
+          {" "}
+          Password Generator{" "}
+           </a>
+        </div>
+      </div>
+      <div className="recent-project">
+        <div className="recent">
+          <a href="https://github.com/NataVenk/Project-Travelers">
+          {" "}
+          Travelers - Travel Website{" "}
+           </a>
+        </div>
+      </div>
       <Footer />
     </div>
   );
