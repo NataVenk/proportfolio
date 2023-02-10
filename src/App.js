@@ -11,6 +11,7 @@ function App() {
         <div className = "mainNav">
             <Router>
                 <div>
+                    
                     <ul className = "border d-flex justify-content-around">
                         <li>
                         <Link to="/">Home</Link>

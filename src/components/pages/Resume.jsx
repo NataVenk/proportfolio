@@ -1,5 +1,4 @@
 import React from "react";
-import MyComponent from '../anime1';
 import Footer from '../Footer';
 import ResumeNV from '../pages/resume2023.pdf';
 
@@ -7,23 +6,23 @@ const Resume = () => {
   return (
     <div>
    
-   <p>Experience with</p>
+   <p className= "skillset">Skill Set</p>
       <div>
-<ul> 
+<ul className="skillset"> 
   
-<MyComponent/><li> 
+    <li> 
        Adobe Creative Suite
     </li>
-    <MyComponent/><li> 
+    <li> 
        CSS and HTML
     </li>
-    <MyComponent/><li> 
+    <li> 
        JavaScript
     </li>
-    <MyComponent/><li> 
+    <li> 
        React
     </li>
-    <MyComponent/><li> 
+    <li> 
        Mongo, MySQL and GraphQL
     </li>
 
@@ -32,9 +31,12 @@ const Resume = () => {
    
   
       </div>
+      <div class="d-grid gap-2">
+      <button type="button " className="btn btn-outline-secondary justify-content-around resumeButton">
+        <a href={ResumeNV}  download="Natalia-resume.pdf"> My Resume </a>
 
-<a href={ResumeNV} download="Natalia-resume.pdf"> My Resume </a>
-
+        </button>
+      </div>
 
 
       <Footer />

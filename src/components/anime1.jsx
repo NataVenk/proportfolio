@@ -4,7 +4,7 @@ import { useSpring, animated } from '@react-spring/web'
 export default function MyComponent() {
 const springs = useSpring({
     from: { x: 0 },
-    to: { x: 400 },
+    to: { x: 200 },
   })
 return(
   <animated.div

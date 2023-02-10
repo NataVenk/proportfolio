@@ -1,9 +1,9 @@
 import React from 'react'
+import notetakerImg from '../images/notetaker.png'
 
-const Image = ({someimage}) => {
-  return (
-    <img src={someimage} />
-  )
+function NotetakerImg () {
+  return <img src={notetakerImg} />;
+
 }
 
-export default Image
+export default NotetakerImg

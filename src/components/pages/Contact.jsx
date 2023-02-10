@@ -54,7 +54,7 @@ response ? console.log ("success") : console.log("failed")
   return (
     <div className="Contact">
       <form id="contact-form">
-        <div className="form-group">
+        <div className="form-group contactinfo">
           <label className="InputEmai1">Email address</label>
           <br></br>
 
@@ -67,7 +67,7 @@ response ? console.log ("success") : console.log("failed")
             placeholder="email"
           />
         </div>
-        <div className="form-group">
+        <div className="form-group contactinfo">
         <label className="name">Name</label>
         <br></br>
        
@@ -81,7 +81,7 @@ response ? console.log ("success") : console.log("failed")
             placeholder="name"
           />
         </div>
-        <div className="form-group">
+        <div className="form-group contactinfo">
           <label className="message"> Message</label>
           <br></br>
           <textarea

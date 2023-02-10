@@ -46,15 +46,15 @@
 body {
   background-color: #ffffff;
 }
-.header {
+/* .header {
   padding-top: 200px;
   /* background-image: url("../images/moon.png"); */
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   
-}
-/* need to figure out how to adjust background image */
+} */ 
+
 h2{
   font-family: optima;
   font-size: 65pt;
@@ -69,7 +69,7 @@ h1{
   color: #c8a56d;
 }
 
-.header nav {
+.nav {
   padding-bottom: 0px;
   font-family: Optima;
   font-size: 25px;
@@ -78,13 +78,13 @@ h1{
   margin-bottom: 10px;
 
 }
-.header nav ul{
+.nav ul{
 
   display: flex;
   justify-content: space-around;
   
 }
-.header nav ul li {
+.nav ul li {
       display: inline-block;
       text-align: center;
   
@@ -168,6 +168,28 @@ h3{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
+}
+.main-name{
+  border-bottom: #695a86;
+  border-top: #695a86;
+ 
+  margin-block: 20px;
+
+  font-family: optima;
+  font-size: 65pt;
+  text-align: center;
+  
+}
+.sub-title{
+  border-bottom: #695a86;
+  border-top: #695a86;
+  
+  margin-block: 200px;
+
+  font-family: optima;
+  font-size: 25pt;
+  text-align: center;
   
 }
 
@@ -283,3 +305,35 @@ footer{
 section article {
     flex-direction: column;
   } */
+
+  .tsparticles {
+    height: 1200 pt;
+    
+  }
+
+  .skillset{
+    font-family: optima;
+    font-size: 15pt;
+    text-align: center;
+    color: #695a86;
+    list-style-type: none;
+  }
+
+.resumeButton{
+  font-family: optima;
+    font-size: 15pt;
+    text-align: center;
+    color: #695a86;
+}
+
+.contactinfo{
+  font-family: optima;
+  font-size: 15pt;
+  
+  color: #695a86;
+}
+
+.portfolioImg{
+  height: 200px;
+  width: 200px;
+}
