@@ -12,21 +12,21 @@ function App() {
             <Router>
                 <div>
                     
-                    <ul className = "border d-flex justify-content-around">
+                    <ul className = "mainNav border d-flex justify-content-around">
                         <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/" style={{ textDecoration: 'none' }}>Home</Link>
                         </li>
                         <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about" style={{ textDecoration: 'none' }}>About</Link>
                         </li>
                         <li>
-                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/portfolio" style={{ textDecoration: 'none' }}>Portfolio</Link>
                         </li>
                         <li>
-                        <Link to="/resume">Resume</Link>
+                        <Link to="/resume" style={{ textDecoration: 'none' }}>Resume</Link>
                         </li>
                         <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contact" style={{ textDecoration: 'none' }}>Contact</Link>
                         </li>
                        
                     </ul>

@@ -33,7 +33,7 @@ const Resume = () => {
       </div>
       <div class="d-grid gap-2">
       <button type="button " className="btn btn-outline-secondary justify-content-around resumeButton">
-        <a href={ResumeNV}  download="Natalia-resume.pdf"> My Resume </a>
+        <a href={ResumeNV} style={{ textDecoration: 'none' }} download="Natalia-resume.pdf"> My Resume </a>
 
         </button>
       </div>

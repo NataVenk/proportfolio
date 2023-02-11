@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,7 +35,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 /* ============= MY CSS================== */
 * {
   box-sizing: border-box;
@@ -46,14 +46,6 @@
 body {
   background-color: #ffffff;
 }
-/* .header {
-  padding-top: 200px;
-  /* background-image: url("../images/moon.png"); */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-} */ 
 
 h2{
   font-family: optima;
@@ -70,35 +62,22 @@ h1{
 }
 
 .nav {
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   font-family: Optima;
   font-size: 25px;
-  color:aliceblue;
+  text-decoration: none;
   justify-content: center;
   margin-bottom: 10px;
 
 }
-.nav ul{
-
-  display: flex;
-  justify-content: space-around;
-  
-}
-.nav ul li {
-      display: inline-block;
-      text-align: center;
-  
-      
-}
-.nav-item{
-  color:rgb(214, 235, 196);
+.mainNav{
+  list-style-type: none;
   text-decoration: none;
+}
 
-}
-.header nav ul li :hover{
-  color:#c8a56d
-  
-}
+
+
+
 h3{
   font-family: optima, bold;
   font-size: 30pt;
@@ -173,9 +152,7 @@ h3{
 .main-name{
   border-bottom: #695a86;
   border-top: #695a86;
- 
   margin-block: 20px;
-
   font-family: optima;
   font-size: 65pt;
   text-align: center;
@@ -184,9 +161,7 @@ h3{
 .sub-title{
   border-bottom: #695a86;
   border-top: #695a86;
-  
-  margin-block: 200px;
-
+  margin-block: 20px;
   font-family: optima;
   font-size: 25pt;
   text-align: center;
@@ -198,48 +173,29 @@ h3{
   position: relative;
   display: flex;
 
-
-  
-  
 }
 .recent{
   position: absolute;
-  bottom: 50px;
-  left: -10px;
-  width: 70%;
-  padding: 20px;
-  height: 75px;
-  background-color:  #a795bfc4;
-  border: 5px solid #f7f4f2;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  font-family: optima;
-  font-size: 25px;
-  text-decoration: none;
-  color:#695a86;
-  border: 5px solid #7a7bca;
- 
+  
 
-} */
+}  */
 
 .recent:hover{
   background-color: darkgray;
   color:#f7f4f2;
 }
-.image-recent{
-  height: 400px;
-  width: 100%;
-  padding: 10px;
-}
-.image{
+
+.recent{
+  border:#695a86;
+  border-width: 5px;
+  border-radius: 10px;
+ }
+
+.portfolioImg{
   height: 200px;
-  width: 400px;
+  width: 200px;
   padding: 10px;
 }
-
-
 
 .portfolio-shape:hover{
 
@@ -250,25 +206,6 @@ h3{
 
 
 
-.inspiration-box{
-  height: 175px;
-  background-color: #a795bfc4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color:#695a86;
-  font-family: Optima;
-  font-size: 25px;
-  text-decoration: none; 
-  border: 5px solid #f7f4f2;
-
-}
-
-.inspiration-box:hover{
-  background-color: darkgray;
-  color:#f7f4f2;
-  
-}
 
 .contact{
   text-decoration: none;
@@ -317,6 +254,7 @@ section article {
     text-align: center;
     color: #695a86;
     list-style-type: none;
+  
   }
 
 .resumeButton{
@@ -324,12 +262,13 @@ section article {
     font-size: 15pt;
     text-align: center;
     color: #695a86;
+    text-decoration: none;
 }
 
 .contactinfo{
   font-family: optima;
   font-size: 15pt;
-  
+  text-decoration: none;
   color: #695a86;
 }
 

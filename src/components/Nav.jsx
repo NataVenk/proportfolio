@@ -55,15 +55,3 @@ function Nav({ currentPage, handlePageChange }) {
 
 export default Nav;
 
-// const Nav = ({setCurrentPage}) => {
-
-//     const arr = ["About", "Contact", "Projects"]
-//   return (
-//     <ul>
-
-//         {arr.map(topic => (
-//             <li onClick={()=> setCurrentPage(topic)} key={topic}>{topic}</li>
-//         ))}
-//     </ul>
-//   )
-// }
