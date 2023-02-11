@@ -37,17 +37,17 @@
   }
 } */
 /* ============= MY CSS================== */
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
+} */
 
-body {
+/* body {
   background-color: #ffffff;
-}
+} */
 
-h2{
+/* h2{
   font-family: optima;
   font-size: 65pt;
   text-align: center;
@@ -59,9 +59,9 @@ h1{
   font-size: 85pt;
   text-align: center;
   color: #c8a56d;
-}
+} */
 
-.nav {
+/* .nav {
   padding-bottom: 10px;
   font-family: Optima;
   font-size: 25px;
@@ -69,10 +69,13 @@ h1{
   justify-content: center;
   margin-bottom: 10px;
 
-}
+} */
 .mainNav{
   list-style-type: none;
   text-decoration: none;
+  font-size: 25px;
+  font-family: Optima;
+  color:#695a86;
 }
 
 
@@ -81,7 +84,7 @@ h1{
 h3{
   font-family: optima, bold;
   font-size: 30pt;
-    
+  display: inline-flex;
 }
 
 .dot{
@@ -93,69 +96,13 @@ h3{
   justify-content: flex-start;
 }
 
-.section {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  
-
-}
-
-.top-section{
-  border-bottom: 3px solid #695a86;
-  margin: 20px;
-  margin-left: 75px;
-  margin-right: 75px;
-  text-align: center;
-  height: 30%;
-  color: #695a86;
-
-}
-.bottom-section{
-  
-  height: 70%; 
-  margin-top: 5px; 
-  text-align: center;
-  margin-block: 25px;
-  color: #695a86;
-  text-align: center;
-  font-family: Optima;
-  font-size: 25px;
-  text-decoration: none;
-}
-
-.bottom-section  ul {
-  padding: 5px;
-  display: flex;
-  justify-content: space-around;
-  text-decoration: none;
-
-
-}  
-
-
-.bottom-section p{
-  text-align: justify;
-  margin-block: 20px;
-  text-decoration: none;
-
-}
-.bottom-section-portfolio{
-  height: 70%; 
-  margin-top: 5px; 
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  
-}
 .main-name{
-  border-bottom: #695a86;
-  border-top: #695a86;
+ 
   margin-block: 20px;
   font-family: optima;
   font-size: 65pt;
   text-align: center;
+  background-color: #b5e8cb;
   
 }
 .sub-title{
@@ -165,20 +112,28 @@ h3{
   font-family: optima;
   font-size: 25pt;
   text-align: center;
+  background-color: #b5e8cb;
   
 }
-
-
-/* .recent-project{
+.tsparticles-img{
   position: relative;
-  display: flex;
-
+  height: 300px;
 }
-.recent{
-  position: absolute;
+.text-on-image {
+  position: relative;
   
+  justify-content: center;
+  bottom: -50%;
+}
 
-}  */
+.enterbutton{
+  position: relative;
+  font-size: 25pt;
+  justify-content: center;
+  color:#b5e8cb;
+  bottom: -250%;
+}
+
 
 .recent:hover{
   background-color: darkgray;
@@ -187,7 +142,8 @@ h3{
 
 .recent{
   border:#695a86;
-  border-width: 5px;
+  background-color: #b5e8cb;
+  border-width: 10px;
   border-radius: 10px;
  }
 
@@ -244,7 +200,8 @@ section article {
   } */
 
   .tsparticles {
-    height: 1200 pt;
+    height: 1200px;
+    width: 500px;
     
   }
 

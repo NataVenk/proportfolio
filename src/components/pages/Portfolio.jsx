@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <div>
       <div className="top-section">
-        <h3>Portfolio</h3>
+        <h3>My Recent projects</h3>
       </div>
       <div className="container  text-center">
         <div className="row">
