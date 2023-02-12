@@ -39,6 +39,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Usage
 The following image shows the web application's appearance and functionality:
+
 <img src="../images/portfolio.png "/>
 
 
