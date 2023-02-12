@@ -8,7 +8,7 @@ import Footer from "../Footer";
 
 const Home = () => {
   return (
-    <div style={styles.homeStyle} className="homepage">
+    <div className="homepage">
       <div className="tsparticles-img ">
         <Particles1 />
       </div>
