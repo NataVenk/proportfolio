@@ -4,29 +4,32 @@ import Particles1 from "../particles1";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
 
+
+
 const Home = () => {
   return (
-    <div>
+    <div style={styles.homeStyle} className="homepage">
       <div className="tsparticles-img ">
         <Particles1 />
-
-        <div  className="text-on-image">
+      </div>
+      <div className="textContainer">
+        <div className="text-on-image">
           <div className="main-name">
-          <p > Natalia Venkatesh </p>
-          <p className="sub-title"> Full Stack Web Developer</p>
+            <p> Natalia Venkatesh </p>
+            <p className="sub-title"> Full Stack Web Developer</p>
           </div>
-        
         </div>
         <div className="d-grid gap-2 sticky-bottom enterbutton">
-            <button
-              type="button "
-              className="btn enterButton"
+          
+            <Link 
+            className="btn  enterButton"
+              to={"./About"}
+              style={{ textDecoration: "none", textSize: "25" }}
             >
-              <Link to={"./About"} style={{ textDecoration: "none" , textSize: "25"}}>
-                <p className="enterbutton">Let's meet</p>
-              </Link>
-            </button>
-          </div>
+              <span className="enterbutton">Let's meet</span>
+            </Link>
+          
+        </div>
       </div>
       <div>
         <Footer />
