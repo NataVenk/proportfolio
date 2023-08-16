@@ -13,38 +13,22 @@ const About = () => {
           {" "}
           <span className="dot"></span>Hello and welcome to my page. {" "}
           
-          My name is Natalia Venkatesh and I am located in Pennsylvania.
+          Hello, I'm Natalia Venkatesh, a passionate engineer and photographer based in Pennsylvania. My journey is defined by a relentless pursuit of learning and creativity. My background in engineering and photography has led me on an exciting path of exploration, always seeking new avenues to expand my horizons.
        
         </p>
         <p className="pIndent">
       
-        I am an enginneer and photographer but I always look for a
-          new things to learn. Few months back I took a class on HTML and CSS
-          just to see if I can improve my website. And it was only a matter of
-          time before I was hooked. I love the logic of the code and creativity
-          of solutions. An engineer by trade and a photographer by passion, I
-          decided to join UPenn Full Stack Developer Bootcamp. I wanted to learn
-          more but most of all I wanted to meet peopple who started the same
-          journey I am on.
+        A few months ago, I ventured into the world of HTML and CSS by taking a class. What started as a simple curiosity quickly transformed into an insatiable passion. The allure of code's logical intricacies and the boundless creativity it offers captivated me completely. An engineer by profession and a photographer by heart, this newfound fascination compelled me to enroll in the UPenn Full Stack Developer Bootcamp.
         </p>
         <p className="pIndent">
-          The prorgam helped me to develop deep expertise in
-          front-end web development, craft visually stunning and user-friendly
-          websites and applications. Using technologies such as HTML, CSS,
-          JavaScript, and React, I connect front-end and back-end technologies
-          to deliver a curated "last-mile" experience. In addition, my
-          proficiency in Node.js, MySQL, and MongoDB enables me to build
-          scalable applications that bring brands to life on digital platforms.
+        Through this immersive program, I delved deep into the realm of front-end web development. Armed with tools like HTML, CSS, JavaScript, and React, I learned to weave together intricate designs with seamless user experiences. Bridging the gap between front-end and back-end technologies became my forte, as I harnessed the power of Node.js, MySQL, and MongoDB to build applications that resonate with brands and audiences alike.
         
         </p>
         
         <p className="pIndent"> 
-         As a creative problem solver with a keen eye for detail, I am
-          dedicated to delivering engaging experiences that connect with
-          audiences. Whether working independently or collaborating with a team,
-          I strive for creative excellence in everything I do. From product
-          design to photography to web development, my diverse skill set allows
-          me to bring a unique perspective to any project.
+        I am a dedicated problem solver with an eye for detail, committed to crafting immersive experiences that forge meaningful connections. Whether collaborating within a team or working independently, I relentlessly pursue creative excellence. My versatility shines through in my ability to seamlessly transition from product design to photography and web development, offering a fresh and unique perspective to every endeavor.
+
+My journey is ongoing, marked by a thirst for knowledge and a commitment to delivering exceptional outcomes. Join me as I continue to explore new dimensions, pushing the boundaries of what's possible in engineering, photography, and web development.
         </p>
       </div>
       <Footer />

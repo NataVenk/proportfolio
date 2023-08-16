@@ -88,12 +88,14 @@ h1{
 
 .pIndentOne{  
   text-indent: 20px;
+  font-size: 20px;
   margin-left: 10px;
 }
 
 .pIndent{
   text-indent: 100px;
   margin-left: 10px;
+  font-size: 20px;
  
 }
 
