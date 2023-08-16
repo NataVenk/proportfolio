@@ -8,7 +8,7 @@ const Resume = () => {
    
    <p className= "skillset">Skill Set</p>
       <div>
-<ul className="skillset"> 
+<ul className="skillset2"> 
   
     <li> 
        Adobe Creative Suite

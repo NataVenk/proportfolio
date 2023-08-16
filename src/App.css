@@ -76,15 +76,28 @@ h1{
   font-size: 25px;
   font-family: Optima;
   color:#695a86;
+  position: relative;
 }
 
-
+.pIndent{
+  text-indent: 15px;
+}
 
 
 h3{
   font-family: optima, bold;
   font-size: 30pt;
-  display: inline-flex;
+  
+}
+.top-section{
+  position:relative;
+}
+.h3P{
+  font-family: optima, bold;
+  font-size: 30pt;
+  text-align: center;
+  
+ 
 }
 
 .dot{
@@ -141,10 +154,13 @@ h3{
 }
 
 .recent{
-  border:#695a86;
+
+  box-shadow: 10px 10px 10px #695a86;
   background-color: #b5e8cb;
-  border-width: 10px;
-  border-radius: 10px;
+  border-width: 20px;
+  border:#695a86;
+  margin: 10px;
+
  }
 
 .portfolioImg{
@@ -207,24 +223,32 @@ section article {
 
   .skillset{
     font-family: optima;
-    font-size: 15pt;
+    font-size: 20pt;
     text-align: center;
     color: #695a86;
     list-style-type: none;
   
   }
-
-.resumeButton{
-  font-family: optima;
+  .skillset2{
+    font-family: optima;
     font-size: 15pt;
     text-align: center;
     color: #695a86;
-    text-decoration: none;
+    list-style-type: none;
+    
+  
+  }
+.resumeButton{
+  font-family: optima;
+    font-size: 25pt;
+    text-align: center;
+    color: #695a86;
+   
 }
 
 .contactinfo{
   font-family: optima;
-  font-size: 15pt;
+  font-size: 20pt;
   text-decoration: none;
   color: #695a86;
 }
