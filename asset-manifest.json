@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/proportfolio/static/css/main.242720a0.chunk.css",
-    "main.js": "/proportfolio/static/js/main.e0d1aac9.chunk.js",
-    "main.js.map": "/proportfolio/static/js/main.e0d1aac9.chunk.js.map",
+    "main.js": "/proportfolio/static/js/main.5baf5aae.chunk.js",
+    "main.js.map": "/proportfolio/static/js/main.5baf5aae.chunk.js.map",
     "runtime-main.js": "/proportfolio/static/js/runtime-main.f205857b.js",
     "runtime-main.js.map": "/proportfolio/static/js/runtime-main.f205857b.js.map",
     "static/css/2.f26e749f.chunk.css": "/proportfolio/static/css/2.f26e749f.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.f26e749f.chunk.css.map": "/proportfolio/static/css/2.f26e749f.chunk.css.map",
     "static/css/main.242720a0.chunk.css.map": "/proportfolio/static/css/main.242720a0.chunk.css.map",
     "static/js/2.91493d1a.chunk.js.LICENSE.txt": "/proportfolio/static/js/2.91493d1a.chunk.js.LICENSE.txt",
-    "static/media/ResumeNataliaVenkatesh.681b20bb.pdf": "/proportfolio/static/media/ResumeNataliaVenkatesh.681b20bb.pdf",
+    "static/media/ResumeNataliaVenkatesh.2dfd302a.pdf": "/proportfolio/static/media/ResumeNataliaVenkatesh.2dfd302a.pdf",
     "static/media/gym.6fab6003.png": "/proportfolio/static/media/gym.6fab6003.png",
     "static/media/App.css": "/proportfolio/static/media/natetsy.d7cf2290.png",
     "static/media/notetaker.001097ac.png": "/proportfolio/static/media/notetaker.001097ac.png",
@@ -30,6 +30,6 @@
     "static/css/2.f26e749f.chunk.css",
     "static/js/2.91493d1a.chunk.js",
     "static/css/main.242720a0.chunk.css",
-    "static/js/main.e0d1aac9.chunk.js"
+    "static/js/main.5baf5aae.chunk.js"
   ]
 }
