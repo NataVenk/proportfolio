@@ -247,10 +247,18 @@ section article {
     list-style-type: none;
   
   }
+  .intro{
+    font-family: optima;
+    font-size: 14pt;
+    text-align: left;
+    color: #695a86;
+    list-style-type: none;
+  
+  }
   .skillset2{
     font-family: optima;
-    font-size: 15pt;
-    text-align: center;
+    font-size: 14pt;
+    text-align: left;
     color: #695a86;
     list-style-type: none;
     

@@ -10,15 +10,7 @@ const Footer = () => {
             GitHub
           </a>
         </li>
-        <li>
-          <a
-            className="contact"
-            href="https://www.linkedin.com/in/natalia-venkatesh/"
-          >
-            {" "}
-            LinkedIn
-          </a>
-        </li>
+        
       </div>
       <footer>
         <h4>You are only as big as dreams you dare to live.</h4>
